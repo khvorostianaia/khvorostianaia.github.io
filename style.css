@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto+Mono:wght@300&display=swap');
+
+.nav-link {
+    font-family: 'Playfair Display';
+    font-size: 1.5rem;
+}
+
+h1, h2 {
+    font-family: 'Playfair Display';
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-family: 'Playfair Display';
+    font-size: 4rem;
+}
+
+.accordion-button {
+    font-size: 1.5rem;
+}
+
+p, .btn, .accordion-body, .accordion-button {
+    font-family: 'Roboto Mono';
+}
+
+p, .accordion-body {
+    font-size: 1.5rem;
+}
+
+.btn {
+    font-size: 1.2rem;
+    border-radius: 0;
+}
+
+header {
+    height: 110vh;
+    background-image: url(./Images/main.png);
+    background-size: cover;
+    background-position: center;
+}
+
+header, .about, .catalog, .CTA, .blog, .contacts {
+    margin-bottom: 8rem;
+}
+
+.description {
+position: absolute;
+top: 30%;
+margin: auto;
+}
+
+.card-img-top {
+    border-radius: 0px;
+}
+
+.card {
+    border: 0px
+}
+
+.card-body {
+    padding: 1rem 0; 
+}
+
+.catalog.header, .blog.header {
+    margin-bottom: 4rem;
+}
+
+.CTA {
+    background-image: url(./Images/form_bg.png);
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.contacts {
+    background-image: url(./Images/contact_img.png);
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.btn {
+    margin-top: 1rem;
+}
+
+.form-control {
+    margin-bottom: 1rem;
+}
+
+.row {
+    margin-top: 2rem;
+}
+
+.accordion {
+--bs-accordion-active-color:#141619;
+--bs-accordion-active-bg: #f4f0f1;
+--bs-accordion-btn-focus-border-color: #f4f0f1;
+--bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem #ffffff;
+--bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+--bs-border-color: white;
+}
+
